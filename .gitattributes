@@ -1,3 +1,5 @@
 *.html linguist-detectable=true
 *.js linguist-detectable=true
 *css linguist-detectable=true
+assets/js/terceiros/* linguist-vendored
+script.js linguist-vendored=false
