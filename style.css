@@ -386,7 +386,7 @@ section .title{
     background: blue;
 }
 .skills .skills-content .column-right .line-jv::before{
-    width: 5%;
+    width: 10%;
     background: linear-gradient(red, blue);
 }
 
