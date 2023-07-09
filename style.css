@@ -83,6 +83,21 @@ html{
     border-radius: 10%;
 }
 
+#lang{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: fixed;
+    width: 1.5rem;
+    height: 1.5rem;
+    right: 1rem;
+    bottom: 50%;
+    text-align: center;
+}
+.langs img{
+    width: 100%;
+}
+
 .home{
     display: flex;
     height: 100vh;
@@ -620,6 +635,10 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 1.2rem;
         margin-left: -1rem;
+    }
+    #lang{
+        width: 1rem;
+        height: 1rem;
     }
 }
 
