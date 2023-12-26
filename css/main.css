@@ -1,0 +1,298 @@
+.about, .skills{
+    font-family: 'Roboto', sans-serif;
+    background-color: #716b6d;
+}
+.services, .formacao, footer{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;   
+}
+.about .about-content, .services .serv-content, .skills .skills-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+section .title{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 3.7rem;
+    padding-bottom: 1.2rem;
+}
+
+.about .about-content .column-left{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about .about-content .column-right{
+    width: 100%;
+}
+.about .about-content .column-right p{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.about .about-content .column-left img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 4px 30px rgba(169, 8, 28, 0.5);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.services, .formacao{
+    background-color: #111a21;
+    color: #716b6d;
+}
+.services .serv-content{
+    height: 11.8rem;
+    overflow: hidden;
+    padding: 1rem;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.2);
+}
+.services .serv-content.active{
+    height: auto;
+}
+.services .serv-content::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.services .serv-content .card{
+    width: calc(33% - 20px);
+    min-height: 12rem;
+    background-color: #a9081b9c;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover{
+    background: #a9081c;
+}
+.services .serv-content .card .box{
+    transition: all .3s ease;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card .box a{
+    width: 100%;
+    height: 100%;
+}
+.services .serv-content .card .box a img{
+    border-radius: 6px;
+    width: 100%;
+}
+.services .serv-content .card ion-icon{
+    font-size: 3.1rem;
+    color: #111a21;
+}
+.services .serv-content .card .text{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0.6rem 0 0.4rem 0;
+    color: #111a21;
+}
+.btn-mais{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.6rem;
+}
+.btn-mais #read-more{
+    padding: 0.6rem;
+    border: none;
+    cursor: pointer;
+    color: #a9081c;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    background-color: transparent;
+}
+
+.skills .skills-content .column-left, .skills .skills-content .column-right{
+    width: calc(50% - 30px);
+}
+.skills .skills-content .column-left .text{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: .5rem;
+}
+.skills .skills-content .column-left p{
+    text-align: justify;
+}
+
+.skills .skills-content .column-right2{
+    height: 13.7rem;
+    overflow: hidden;
+    position: relative;
+}
+.skills .skills-content .column-right2.active{
+    height: auto;
+}
+.skills .skills-content .column-right2::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.7rem;
+}
+.skills .skills-content .column-right2.active::before{
+    visibility: hidden;
+}
+.btn-more{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.6rem;
+}
+.btn-more #skills-more{
+    padding: 0.6rem;
+    border: none;
+    cursor: pointer;
+    color: #a9081c;
+    background-color: transparent;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+.skills .skills-content .column-right .bars{
+    margin-bottom: 0.9rem;
+}
+.skills .skills-content .column-right .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .column-right span{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.skills .skills-content .column-right span img{
+    width: 70%;
+    height: 70%;
+}
+.skills .skills-content .column-right .line-html, .line-css, .line-js, .line-py, .line-jv, .line-ndjs, .line-exjs{
+    width: 100%;
+    height: 0.3rem;
+    background: white;
+    position: relative;
+}
+#expjs{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+}
+.skills .skills-content .column-right .line-html::before, .line-css::before, .line-js::before, .line-py::before, .line-jv::before, .line-ndjs::before, .line-exjs::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.skills .skills-content .column-right .line-html::before{
+    width: 70%;
+    background: orange;
+}
+.skills .skills-content .column-right .line-css::before{
+    width: 40%;
+    background: lightskyblue;
+}
+.skills .skills-content .column-right .line-js::before{
+    width: 30%;
+    background: yellow;
+}
+.skills .skills-content .column-right .line-py::before{
+    width: 10%;
+    background: blue;
+}
+.skills .skills-content .column-right .line-jv::before{
+    width: 10%;
+    background: linear-gradient(red, blue);
+}
+.skills .skills-content .column-right .line-ndjs::before{
+    width: 5%;
+    background:green;
+}
+.skills .skills-content .column-right .line-exjs::before{
+    width: 5%;
+    background:gray;
+}
+
+.formacao .carousel{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 1%;
+}
+.formacao .carousel .card{
+    background: #a9081b9c;
+    border-radius: 5%;
+    padding: 1.5rem 2.1rem;
+    text-align: center;
+    transition: all .3s ease;
+    cursor: pointer;
+    min-width: 15rem;
+    min-height: 18rem;
+}
+.formacao .carousel .card:hover{
+    background-color: #a9081c;
+}
+.formacao .carousel .card img{
+    width: 6.2rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 10%;
+    transition: all .3s ease;
+}
+.formacao .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease;
+}
+.formacao .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.formacao .carousel .card .text{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0.6rem 0 0.4rem 0;
+    color: #111a21;
+}
+.formacao .carousel .card p{
+    color: #111a21;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 1.2rem;
+}
+.owl-dot{
+    width: 0.8rem;
+    height: 0.8rem;
+    outline: none!important;
+    border-radius: 50%;
+    border: 0.1rem solid black!important;
+    transition: all .3s ease;
+}
+.owl-dot.active{
+    width: 2.1rem;
+    border-radius: 15px;
+}
+.owl-dot.active, .owl-dot:hover{
+    background: #a9081c!important;
+}

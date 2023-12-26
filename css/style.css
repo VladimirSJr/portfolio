@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+[data-anime]{
+    opacity: 0;
+    transition: .3s;
+}
+[data-anime="top"]{
+    transform: translate3d(0, -25px, 0);
+}
+[data-anime="bottom"]{
+    transform: translate3d(0, 25px, 0);
+}
+[data-anime="left"]{
+    transform: translate3d(-25px, 0, 0);
+}
+[data-anime="right"]{
+    transform: translate3d(25px, 0, 0);
+}
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}

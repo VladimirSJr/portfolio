@@ -1,0 +1,233 @@
+@media (max-width:963px){
+    .home .box-contact .text-1{
+        font-size: 1.7;
+    }
+    .home .home-content .text-2{
+        font-size: 3.5rem;
+    }
+    .home .home-content .text-3{
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width:947px){
+    .max-width{
+        padding: 0 3.1rem;
+    }
+    .navbar #menu li a{
+        color: #a9081c;
+    }
+    #menu-btn{
+        display: flex;
+        color: #a9081c;
+        background: none;
+        border: none;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        gap: .5rem;
+        cursor: pointer;
+    }
+    #hamburger{
+        width: 1.2rem;
+        border-top: 0.125rem solid;
+    }
+    #hamburger::after, #hamburger::before{
+        content: '';
+        display: block;
+        width: 1.2rem;
+        height: 0.125rem;
+        margin-top: 0.3rem;
+        background: currentColor;
+        transition: .3s;
+        position: relative;
+    }
+    #nav-menu.active #hamburger{
+        border-top-color: transparent;
+    }
+    #nav-menu.active #hamburger::before{
+        transform: rotate(135deg);
+    }
+    #nav-menu.active #hamburger::after{
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+    #menu{
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 4.375rem;
+        background: #716b6d;
+        text-align: center;
+        z-index: 1000;
+        transition: 0.6s;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    #nav-menu.active #menu{
+        visibility: visible;
+        overflow-y: auto;
+        height: calc(100vh - .5rem);
+    }
+    #nav-menu #menu li{
+        display: block;
+    }
+    #nav-menu #menu li a{
+        display: inline-block;
+        margin: 1.2rem 0;
+        font-size: 1.5rem;
+    }
+    #nav-menu.active #menu li a:hover{
+        border-bottom: 0.15rem #a9081c solid;
+    }
+}
+
+@media (max-width:910px){
+    .about .about-content .column-right p{
+        font-size: 1.2rem;
+    }
+    .about .about-content .column-left img{
+        width: 150px;
+        height: 150px;
+    }
+    .services .serv-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 1.2rem;
+    }
+}
+
+@media (max-width:779px){
+    .home .home-content .text-1{
+        font-size: 1.5rem;
+    }
+    .home .home-content .text-2{
+        font-size: 3rem;
+    }
+    .home .home-content .text-3{
+        font-size: 1.5rem;
+    }
+    .about .about-content .column-right{
+        padding: 0;
+    }
+    .about .about-content .column-right p{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:700px){
+    .services .serv-content .card{
+        width: 100%;
+    }
+    .skills .skills-content .column-left, .skills .skills-content .column-right{
+        min-width: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width:674px){
+    .home .home-content .text-1{
+        font-size: 1.2rem;
+        margin-left: -1rem;
+    }
+    .home .home-content .text-2{
+        font-size: 2rem;
+        margin-left: -1.5rem;
+    }
+    .home .home-content .text-3{
+        font-size: 1.2rem;
+        margin-left: -1rem;
+    }
+    #lang{
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+@media (max-width:600px){
+    #nav-menu #menu li a{
+        font-size: 1.1rem;
+        margin-left: 0;
+    }
+}
+
+@media (max-width:590px){
+    .home .home-content .text-1{
+        font-size: 1.1rem;
+    }
+    .home .home-content .text-2{
+        font-size: 1.5rem;
+    }
+    .home .home-content .text-3{
+        font-size: 1.1rem;
+    }
+    ion-icon{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width:486px){
+    ion-icon{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media (max-width:450px){
+    section .title{
+        font-size: 2rem;
+    }
+    .skills .skills-content .column-left .text{
+        font-size: 1.2rem;
+    }
+    .skills .skills-content .column-left p{
+        font-size: 1rem;
+    }
+    .skills .skills-content .column-right span{
+        font-size: 1rem;
+    }
+    .skills .skills-content .column-right span img{
+        width: 50%;
+        height: 50%;
+    }
+    .skills .skills-content .column-right .line-html, .line-css, .line-js, .line-py, .line-jv{
+        height: 0.2rem;
+    }
+}
+
+@media (max-width:410px){
+    .home .home-content .text-1{
+        font-size: 1rem;
+        margin-left: -1rem;
+    }
+    .home .home-content .text-2{
+        font-size: 1.2rem;
+        margin-left: -1.5rem;
+    }
+    .home .home-content .text-3{
+        font-size: 1rem;
+        margin-left: -1rem;
+    }
+}
+
+@media (max-width:400px){
+    .services .serv-content .card .text{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:375px){
+    .formacao .carousel .card .text{
+        font-size: 1rem;
+    }
+    .formacao .carousel .card{
+        min-width: 12rem;
+        min-height: 18rem;
+        padding: 1.3rem 1.9rem;
+    }
+    .formacao .carousel .card img{
+        width: 5rem;
+        height: 3rem;
+    }
+}
