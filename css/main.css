@@ -1,10 +1,7 @@
-.about, .skills{
-    font-family: 'Roboto', sans-serif;
-    background-color: #716b6d;
-}
-.services, .formacao, footer{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;   
+.about, .skills, .services, .formacao, footer{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 400;
+    background-color: #DFEBF6;
 }
 .about .about-content, .services .serv-content, .skills .skills-content{
     display: flex;
@@ -14,7 +11,7 @@
     width: 100%;
 }
 section .title{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'PT', serif;
     text-align: center;
     font-size: 2.5rem;
     font-weight: 500;
@@ -24,38 +21,36 @@ section .title{
 
 .about .about-content .column-left{
     display: flex;
-    width: 100%;
+    width: 30%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 .about .about-content .column-right{
-    width: 100%;
+    width: 70%;
+    border-left: #76BA96 solid .1rem;
 }
 .about .about-content .column-right p{
     text-align: center;
     font-size: 1.5rem;
     padding: 1rem;
+    color: #29353C;
 }
 .about .about-content .column-left img{
-    width: 200px;
-    height: 200px;
+    width: 80%;
+    height: 80%;
     object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0px 4px 30px rgba(169, 8, 28, 0.5);
-    background: rgba(255, 255, 255, 0.2);
 }
 
 .services, .formacao{
-    background-color: #111a21;
-    color: #716b6d;
+    background-color: #29353C;
+    color: #76BA96;
 }
 .services .serv-content{
     height: 11.8rem;
     overflow: hidden;
     padding: 1rem;
     border-radius: 6px;
-    background: rgba(255, 255, 255, 0.2);
 }
 .services .serv-content.active{
     height: auto;
@@ -69,19 +64,19 @@ section .title{
 .services .serv-content .card{
     width: calc(33% - 20px);
     min-height: 12rem;
-    background-color: #a9081b9c;
+    background-color: #DFEBF6;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     border-radius: 6px;
     padding: 1rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: .5rem;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #a9081c;
+    background: #76BA96;
 }
 .services .serv-content .card .box{
     transition: all .3s ease;
@@ -99,13 +94,13 @@ section .title{
 }
 .services .serv-content .card ion-icon{
     font-size: 3.1rem;
-    color: #111a21;
+    color: #29353C;
 }
 .services .serv-content .card .text{
     font-size: 1.5rem;
     font-weight: 500;
     margin: 0.6rem 0 0.4rem 0;
-    color: #111a21;
+    color: #29353C;
 }
 .btn-mais{
     display: flex;
@@ -116,7 +111,7 @@ section .title{
     padding: 0.6rem;
     border: none;
     cursor: pointer;
-    color: #a9081c;
+    color: #76BA96;
     font-size: 0.9rem;
     font-weight: bold;
     border-radius: 5px;
@@ -163,7 +158,7 @@ section .title{
     padding: 0.6rem;
     border: none;
     cursor: pointer;
-    color: #a9081c;
+    color: #29353C;
     background-color: transparent;
     font-size: 0.9rem;
     font-weight: bold;
@@ -234,22 +229,22 @@ section .title{
 }
 
 .formacao .carousel{
-    background: rgba(255, 255, 255, 0.2);
     padding: 1rem;
     border-radius: 1%;
 }
 .formacao .carousel .card{
-    background: #a9081b9c;
+    background: #DFEBF6;
     border-radius: 5%;
     padding: 1.5rem 2.1rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     transition: all .3s ease;
     cursor: pointer;
     min-width: 15rem;
-    min-height: 18rem;
+    height: 18rem;
 }
 .formacao .carousel .card:hover{
-    background-color: #a9081c;
+    background-color: #76BA96;
 }
 .formacao .carousel .card img{
     width: 6.2rem;
@@ -272,10 +267,10 @@ section .title{
     font-size: 1.5rem;
     font-weight: 500;
     margin: 0.6rem 0 0.4rem 0;
-    color: #111a21;
+    color: #29353C;
 }
 .formacao .carousel .card p{
-    color: #111a21;
+    color: #29353C
 }
 .owl-dots{
     text-align: center;
@@ -286,7 +281,7 @@ section .title{
     height: 0.8rem;
     outline: none!important;
     border-radius: 50%;
-    border: 0.1rem solid black!important;
+    border: 0.1rem solid #76BA96!important;
     transition: all .3s ease;
 }
 .owl-dot.active{
@@ -294,5 +289,5 @@ section .title{
     border-radius: 15px;
 }
 .owl-dot.active, .owl-dot:hover{
-    background: #a9081c!important;
+    background: #DFEBF6!important;
 }

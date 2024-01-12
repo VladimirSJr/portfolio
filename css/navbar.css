@@ -7,13 +7,14 @@
     position: fixed;
     width: 100%;
     padding: 1.875rem 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-size: 400;
     transition: all 0.3s ease;
     z-index: 999;
-    background-color: #111a21;
+    background-color: transparent;
 }
 .navbar.sticky{
-    background-color: #111a21;
+    background-color: #DFEBF6;
     padding: 0.9rem 0;
 }
 .navbar .max-width{
@@ -27,14 +28,14 @@
     font-weight: 500;
 }
 .navbar .logo a span{
-    color: #a9081c;
+    color: #76BA96;
 }
 .navbar #menu li{
     list-style: none;
     display: inline-block;
 }
 .navbar #menu li a{
-    color: #a9081c;
+    color: #29353C;
     font-size: 1.1rem;
     font-weight: 500;
     margin-left: 1.5rem;
@@ -42,12 +43,12 @@
 }
 .navbar #menu li a:hover{
     padding: .1rem 0 ;
-    border-bottom: solid 0.15rem #a9081c;
+    border-bottom: solid 0.15rem #29353C;
     border-radius: 10%;
 }
 .navbar.sticky #menu li a:hover{
     padding: .1rem 0 ;
-    border-bottom: solid 0.15rem #a9081c;
+    border-bottom: solid 0.15rem #29353C;
     border-radius: 10%;
 }
 
