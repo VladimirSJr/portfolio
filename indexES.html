@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/multitelas.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-        <link rel="shortcut icon" href="Images/VladimirFavicon.png" type="image/x-icon">
+        <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
         <title>Vladimir Jr.</title>
     </head>
     <body>
@@ -66,10 +66,10 @@
         <section class="about" id="about">
             <div class="max-width">
                 <div class="about-content">
-                    <div class="column-left" data-anime="top">
+                    <div class="column-left">
                         <img src="Images/vladimirJunior.png" alt="Vladimir da Silva Junior">
                     </div>
-                    <div class="column-right" data-anime="bottom">
+                    <div class="column-right">
                         <p>Hola, me llamo Vladimir da Silva Junior. Actualmente estoy en búsqueda de oportunidades como pasante en Desarrollo de Software.</p>
                     </div>
                 </div>
@@ -77,8 +77,8 @@
         </section>
         <section class="services" id="services">
             <div class="max-width">
-                <h2 class="title" data-anime="top">Proyectos</h2>
-                <div class=" serv-content" data-anime="bottom">
+                <h2 class="title">Proyectos</h2>
+                <div class=" serv-content">
                     <div class="card">
                         <div class="box">
                             <a href="https://vladimirsjr.github.io/cafeGourmet/" target="_blank"><img src="Images/cafeGourmet.png" alt="Café Gourmet"></a>
@@ -115,78 +115,37 @@
                         </div>
                     </div>
                 </div>
-                <div class="btn-mais" data-anime="bottom"><button id="read-more">Más</button></div>
+                <div class="btn-mais"><button id="read-more">Más</button></div>
             </div>
         </section>
         <section class="skills" id="skills">
             <div class="max-width">
-                <h2 class="title" data-anime="top">Habilidades</h2>
+                <h2 class="title">Habilidades</h2>
                 <div class="skills-content">
-                    <div class="column-left" data-anime="left">
+                    <div class="column-left">
                         <div class="text">Mis habilidades y experiencias</div>
                         <p>Todas mis habilidades provienen de mis estudios en la carrera de análisis y desarrollo de sistemas y de cursos extracurriculares.</p>
                     </div>
                     <div class="column-right">
-                        <div class="column-right2" data-anime="right">
-                            <div class="bars">
-                                <div class="info">
-                                    <span><img src="Images/html5.png" alt="HTML5"></span>
-                                    <span>70%</span>
-                                </div>
-                                <div class="line-html"></div>
-                            </div>
-                            <div class="bars">
-                                <div class="info">
-                                    <span><img src="Images/css3.png" alt="CSS3"></span>
-                                    <span>40%</span>
-                                </div>
-                                <div class="line-css"></div>
-                            </div>
-                            <div class="bars">
-                                <div class="info">
-                                    <span><img src="Images/javascript.png" alt="javascript"></span>
-                                    <span>30%</span>
-                                </div>
-                                <div class="line-js"></div>
-                            </div>
-                            <div class="bars">
-                                <div class="info">
-                                    <span><img src="Images/python.png" alt="python"></span>
-                                    <span>10%</span>
-                                </div>
-                                <div class="line-py"></div>
-                            </div>
-                            <div class="bars">
-                                <div class="info">
-                                    <span><img src="Images/java.png" alt="java"></span>
-                                    <span>10%</span>
-                                </div>
-                                <div class="line-jv"></div>
-                            </div>
-                            <div class="bars">
-                                <div class="info">
-                                    <span><img src="Images/nodeJs.png" alt="nodeJs"></span>
-                                    <span>5%</span>
-                                </div>
-                                <div class="line-ndjs"></div>
-                            </div>
-                            <div class="bars">
-                                <div class="info">
-                                    <span id="expjs">Express.js</span>
-                                    <span>5%</span>
-                                </div>
-                                <div class="line-exjs"></div>
-                            </div>
+                        <div class="scroller">
+                            <ul class="tag-list scroller__inner">
+                                <li><img src="Images/html5.png" alt="HTML5"></li>
+                                <li><img src="Images/css3.png" alt="CSS3"></li>
+                                <li><img src="Images/javascript.png" alt="javascript"></li>
+                                <li><img src="Images/python.png" alt="python"></li>
+                                <li><img src="Images/java.png" alt="java"></li>
+                                <li><img src="Images/nodeJs.png" alt="nodeJs"></li>
+                                <li><img src="Images/expressJs.png" alt="expressJs"></li>
+                            </ul>                            
                         </div>
-                        <div class="btn-more" data-anime="bottom"><button id="skills-more">Más</button></div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="formacao" id="formacao">
             <div class="max-width">
-                <h2 class="title" data-anime="top">Formación</h2>
-                <div class="carousel owl-carousel" data-anime="bottom">
+                <h2 class="title">Formación</h2>
+                <div class="carousel owl-carousel">
                     <div class="card">
                         <div class="box">
                             <img src="Images/code.svg" alt="Tecnólogo em TI">
@@ -222,6 +181,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
         <script src="javascript/español/boton.js"></script>
         <script src="javascript/español/javascriptES.js"></script>
-        <script src="javascript/portugues/animate.js"></script>
+        <script src="javascript/portugues/scroller.js"></script>
     </body>
 </html>

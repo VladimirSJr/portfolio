@@ -149,10 +149,6 @@
         width: 1rem;
         height: 1rem;
     }
-    .home{
-        background-image: url(/Images/homeImage3.jpg);
-        background-repeat: no-repeat;
-    }
 }
 
 @media (max-width:600px){
@@ -197,16 +193,6 @@
     }
     .skills .skills-content .column-left p{
         font-size: 1rem;
-    }
-    .skills .skills-content .column-right span{
-        font-size: 1rem;
-    }
-    .skills .skills-content .column-right span img{
-        width: 50%;
-        height: 50%;
-    }
-    .skills .skills-content .column-right .line-html, .line-css, .line-js, .line-py, .line-jv{
-        height: 0.2rem;
     }
     .about .about-content .column-left img{
         width: 50%;

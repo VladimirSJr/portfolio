@@ -3,8 +3,7 @@
     height: 100vh;
     min-height: 31.2rem;
     font-family: 'PT Serif', serif;
-    background-image: url(/Images/homeImage2.jpg);
-    background-repeat: no-repeat;
+    background-color: #E6E6E6;
     width: 100%;
 }
 .home .max-width{

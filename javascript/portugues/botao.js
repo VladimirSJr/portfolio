@@ -31,17 +31,6 @@ btnMore.addEventListener('click', function(){
     }
 });
 
-var btnMais = document.getElementById('skills-more');
-btnMais.addEventListener('click', function(){
-    var hab = document.querySelector('.column-right2');
-    hab.classList.toggle('active');
-    if(hab.classList.contains('active')){
-        return btnMais.textContent = 'Menos';
-    } else{
-        btnMais.textContent = 'Mais'
-    }
-});
-
 const debounce = function(func, wait, immediate){
     let timeout;
     return function(...args){
