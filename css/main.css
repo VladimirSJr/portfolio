@@ -1,7 +1,7 @@
 .about, .skills, .services, .formacao, footer{
     font-family: 'IBM Plex Serif', serif;
     font-size: 400;
-    background-color: #DFEBF6;
+    background-color: #716b6d;
 }
 .about .about-content, .services .serv-content, .skills .skills-content{
     display: flex;
@@ -28,13 +28,13 @@ section .title{
 }
 .about .about-content .column-right{
     width: 70%;
-    border-left: #76BA96 solid .1rem;
+    border-left: #A9081C solid .1rem;
 }
 .about .about-content .column-right p{
     text-align: center;
     font-size: 1.5rem;
     padding: 1rem;
-    color: #29353C;
+    color: #111a21;
 }
 .about .about-content .column-left img{
     width: 80%;
@@ -43,8 +43,8 @@ section .title{
 }
 
 .services, .formacao{
-    background-color: #29353C;
-    color: #76BA96;
+    background-color: #111a21;
+    color: #A9081C;
 }
 .services .serv-content{
     height: 11.8rem;
@@ -64,7 +64,7 @@ section .title{
 .services .serv-content .card{
     width: calc(33% - 20px);
     min-height: 12rem;
-    background-color: #DFEBF6;
+    background-color: #716b6d;
     display: flex;
     align-items: center;
     text-align: center;
@@ -76,7 +76,7 @@ section .title{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #76BA96;
+    background: #A9081C;
 }
 .services .serv-content .card .box{
     transition: all .3s ease;
@@ -94,13 +94,13 @@ section .title{
 }
 .services .serv-content .card ion-icon{
     font-size: 3.1rem;
-    color: #29353C;
+    color: #111a21;
 }
 .services .serv-content .card .text{
     font-size: 1.5rem;
     font-weight: 500;
     margin: 0.6rem 0 0.4rem 0;
-    color: #29353C;
+    color: #111a21;
 }
 .btn-mais{
     display: flex;
@@ -111,7 +111,7 @@ section .title{
     padding: 0.6rem;
     border: none;
     cursor: pointer;
-    color: #76BA96;
+    color: #A9081C;
     font-size: 0.9rem;
     font-weight: bold;
     border-radius: 5px;
@@ -119,6 +119,9 @@ section .title{
     background-color: transparent;
 }
 
+.skills .title{
+    color: #A9081C;
+}
 .skills .skills-content .column-left, .skills .skills-content .column-right{
     width: calc(50% - 30px);
 }
@@ -188,7 +191,7 @@ section .title{
     border-radius: 1%;
 }
 .formacao .carousel .card{
-    background: #DFEBF6;
+    background: #716b6d;
     border-radius: 5%;
     padding: 1.5rem 2.1rem;
     display: flex;
@@ -199,7 +202,7 @@ section .title{
     height: 18rem;
 }
 .formacao .carousel .card:hover{
-    background-color: #76BA96;
+    background-color: #A9081C;
 }
 .formacao .carousel .card img{
     width: 6.2rem;
@@ -222,10 +225,10 @@ section .title{
     font-size: 1.5rem;
     font-weight: 500;
     margin: 0.6rem 0 0.4rem 0;
-    color: #29353C;
+    color: #111a21;
 }
 .formacao .carousel .card p{
-    color: #29353C
+    color: #111a21;
 }
 .owl-dots{
     text-align: center;
@@ -236,7 +239,7 @@ section .title{
     height: 0.8rem;
     outline: none!important;
     border-radius: 50%;
-    border: 0.1rem solid #76BA96!important;
+    border: 0.1rem solid #111a21!important;
     transition: all .3s ease;
 }
 .owl-dot.active{
@@ -244,5 +247,5 @@ section .title{
     border-radius: 15px;
 }
 .owl-dot.active, .owl-dot:hover{
-    background: #DFEBF6!important;
+    background: #111a21!important;
 }
