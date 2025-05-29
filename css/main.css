@@ -1,7 +1,7 @@
 .about, .skills, .services, .formacao, footer{
     font-family: 'IBM Plex Serif', serif;
     font-size: 400;
-    background-color: #716b6d;
+    background-color: #111a21;
 }
 .about .about-content, .services .serv-content, .skills .skills-content{
     display: flex;
@@ -19,27 +19,20 @@ section .title{
     padding-bottom: 1.2rem;
 }
 
-.about .about-content .column-left{
-    display: flex;
-    width: 30%;
+.about .title{
+    color: #A9081C;
+}
+.about .about-content{
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 .about .about-content .column-right{
-    width: 70%;
-    border-left: #A9081C solid .1rem;
+    width: 100%;
 }
 .about .about-content .column-right p{
     text-align: center;
     font-size: 1.5rem;
     padding: 1rem;
-    color: #111a21;
-}
-.about .about-content .column-left img{
-    width: 80%;
-    height: 80%;
-    object-fit: cover;
+    color: #716b6d;
 }
 
 .services, .formacao{
@@ -64,7 +57,7 @@ section .title{
 .services .serv-content .card{
     width: calc(33% - 20px);
     min-height: 12rem;
-    background-color: #716b6d;
+    background-color: #A9081C;
     display: flex;
     align-items: center;
     text-align: center;
@@ -76,7 +69,7 @@ section .title{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #A9081C;
+    background: #716b6d;
 }
 .services .serv-content .card .box{
     transition: all .3s ease;
@@ -129,9 +122,11 @@ section .title{
     font-size: 1.5rem;
     font-weight: 500;
     padding-bottom: .5rem;
+    color: #A9081C;
 }
 .skills .skills-content .column-left p{
     text-align: justify;
+    color: #716b6d;
 }
 
 .skills .skills-content .tag-list{
@@ -142,6 +137,7 @@ section .title{
 .skills .skills-content .tag-list li{
     padding: 1rem;
     border-radius: 0.5rem;
+    color: #A9081C;
 }
 .scroller{
     max-width: 600px;
@@ -177,7 +173,7 @@ section .title{
     padding: 0.6rem;
     border: none;
     cursor: pointer;
-    color: #29353C;
+    color: #A9081C;
     background-color: transparent;
     font-size: 0.9rem;
     font-weight: bold;
@@ -191,7 +187,7 @@ section .title{
     border-radius: 1%;
 }
 .formacao .carousel .card{
-    background: #716b6d;
+    background: #A9081C;
     border-radius: 5%;
     padding: 1.5rem 2.1rem;
     display: flex;
@@ -225,10 +221,10 @@ section .title{
     font-size: 1.5rem;
     font-weight: 500;
     margin: 0.6rem 0 0.4rem 0;
-    color: #111a21;
+    color: #716b6d;
 }
 .formacao .carousel .card p{
-    color: #111a21;
+    color: #716b6d;
 }
 .owl-dots{
     text-align: center;
